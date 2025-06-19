@@ -22,6 +22,10 @@ div a {
   color: dodgerblue;
 }
 
+a{
+  text-decoration: none;
+}
+
 header div {
   display: inline-block;
   width: 200px;
@@ -125,6 +129,15 @@ button {
 button:hover {
   transition: 1s;
   background-color: skyblue;
+}
+
+footer{
+  background-color: lightslategray;
+  margin-top: 25px;
+}
+
+.titulo_footer{
+  text-align: center;
 }
 
 @media (max-width: 833px) {
