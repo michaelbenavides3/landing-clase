@@ -73,7 +73,7 @@ header div a:hover {
 }
 
 .columna_derecha {
-  background-color: #b6b09f;
+  background-color: skyblue;
   margin-left: 12px;
 }
 
@@ -131,12 +131,20 @@ button:hover {
   background-color: skyblue;
 }
 
-footer{
-  background-color: lightslategray;
-  margin-top: 25px;
+.titulo_footer p,
+.titulo_footer a {
+  display: inline-block;
+  margin: 0;
 }
 
-.titulo_footer{
+.titulo_footer p {
+  margin-right: 20px;
+}
+
+footer{
+  height: 25px;
+  background-color: darkgrey;
+  margin-top: 25px;
   text-align: center;
 }
 
