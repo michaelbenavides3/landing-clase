@@ -42,15 +42,24 @@ header div a:hover {
   border-bottom: 1px white solid;
 }
 
-.producto {
-  /* border: solid black 2px; */
+section.producto {
+  margin: 25px;         
+  padding: 25px;        
+  height: auto;        /* evita que tenga un tamaño forzado */
+  overflow: hidden;    
+  text-align: center;
+
+}
+
+
+/* .producto {
   width: 1000px;
   height: 500px;
   margin: 0 auto;
   text-align: center;
   margin-top: 150px;
   margin-bottom: 150px;
-}
+} */
 
 .columna_derecha,
 .columna_izquierda {
@@ -177,6 +186,7 @@ footer{
     /* padding-top: 1px; */
   }
 
+
   header{
     margin-top: 20px;
     width: 25%;
@@ -186,6 +196,7 @@ footer{
 
   footer{
     width: 100%;
+    margin: 0 auto;
   }
 }
 
