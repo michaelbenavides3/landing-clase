@@ -43,7 +43,7 @@ header div a:hover {
 }
 
 section.producto {
-  margin: 25px;         
+  /* margin: 25px;          */
   padding: 25px;        
   height: auto;        /* evita que tenga un tamaño forzado */
   overflow: hidden;    
